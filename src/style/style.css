@@ -135,3 +135,28 @@ main {
 .edit_button{
     background: var(--primary-color);
 }
+
+@media screen and (min-width: 700px) {
+    body {
+      background: var(--text-color);
+    }
+    main {
+      background: var(--secondary-color);
+    }
+  
+    .title_date {
+      width: 75%;
+    }
+  
+    .description {
+      width: 75%;
+    }
+  
+    .todo_outputs {
+      width: 70%;
+    }
+  
+    .todo_list_button button {
+      width: 10%;
+    }
+  }
